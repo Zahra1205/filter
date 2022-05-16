@@ -1,0 +1,16 @@
+h3{
+    font-size: 25px !important ;
+}
+.btn-danger:hover{
+    background-color: rgb(27, 53, 126);
+}
+canvas{
+    animation-name: ex;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes ex{
+    from{box-shadow: 1px 1px 38px lightcoral;}
+        to {box-shadow: 1px 1px 38px rgb(109, 171, 190);}
+    
+}
